@@ -1,6 +1,10 @@
 import streamlit as st
 import sys
 import os
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 from dotenv import load_dotenv
 from PIL import Image
 
